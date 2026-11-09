@@ -8,4 +8,4 @@ index.html (home, launch animation), missions.html (filter + modal), gallery.htm
 HTML5, custom CSS, Bootstrap 5.3 (grid, navbar, carousel, accordion, modal), JavaScript, jQuery 3.7 (animate, fadeIn/fadeOut, slideDown/slideUp)
 
 ## Run
-Open index.html. Internet is needed for Bootstrap, jQuery, Google Fonts and Unsplash photos (each photo has a colour fallback if it fails to load).
+https://nurgulibraeva701-rgb.github.io/Full-Website-Baikonur-The-Road-to-the-Stars/
