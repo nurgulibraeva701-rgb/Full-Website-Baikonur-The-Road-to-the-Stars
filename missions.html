@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Missions | Baikonur</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet"></head><body>
+<nav class="navbar navbar-expand-md sticky-top"><div class="container">
+<a class="navbar-brand brand" href="index.html"><b>B</b>Baikonur</a>
+<button class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#nv" aria-label="Menu"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="nv"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="index.html">Home</a></li><li class="nav-item"><a class="nav-link active" href="missions.html" aria-current="page">Missions</a></li><li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li><li class="nav-item"><a class="nav-link" href="history.html">History</a></li><li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li></ul></div></div></nav>
+<main>
+<section class="sec"><div class="container"><h2>Missions launched from Baikonur</h2>
+<div class="mb-4 d-flex flex-wrap gap-3"><button class="btn btn-line flt on" data-f="all">All</button><button class="btn btn-line flt" data-f="satellite">Satellites</button><button class="btn btn-line flt" data-f="crewed">Crewed</button><button class="btn btn-line flt" data-f="station">Stations</button></div>
+<div class="row g-4 g-lg-5"><div class="col-md-6 col-lg-4 mission" data-type="satellite" data-info="The first artificial satellite. The 58 cm sphere weighed 83.6 kg and broadcast its radio beeps for three weeks."><div class="panel"><div class="ico">🛰️</div> <span class="tag ms-2">1957</span><h3 class="h4 mt-3">Sputnik 1</h3><button class="btn btn-line mt-2">Details</button></div></div><div class="col-md-6 col-lg-4 mission" data-type="crewed" data-info="The first crewed spaceflight. Yuri Gagarin spent 108 minutes in space and made one orbit of the Earth."><div class="panel"><div class="ico">👨‍🚀</div> <span class="tag ms-2">1961</span><h3 class="h4 mt-3">Vostok 1</h3><button class="btn btn-line mt-2">Details</button></div></div><div class="col-md-6 col-lg-4 mission" data-type="crewed" data-info="The first joint docking of Soviet and American spacecraft in orbit, a symbol of easing Cold War tension."><div class="panel"><div class="ico">🤝</div> <span class="tag ms-2">1975</span><h3 class="h4 mt-3">Soyuz-Apollo</h3><button class="btn btn-line mt-2">Details</button></div></div><div class="col-md-6 col-lg-4 mission" data-type="station" data-info="The first modular space station. It operated for 15 years and hosted more than 100 cosmonauts and astronauts."><div class="panel"><div class="ico">🏠</div> <span class="tag ms-2">1986</span><h3 class="h4 mt-3">Mir</h3><button class="btn btn-line mt-2">Details</button></div></div><div class="col-md-6 col-lg-4 mission" data-type="station" data-info="The first module of the International Space Station, launched on a Proton-K rocket from Baikonur."><div class="panel"><div class="ico">🌍</div> <span class="tag ms-2">1998</span><h3 class="h4 mt-3">ISS: Zarya module</h3><button class="btn btn-line mt-2">Details</button></div></div><div class="col-md-6 col-lg-4 mission" data-type="satellite" data-info="A space radio telescope built to observe black holes and distant galaxies."><div class="panel"><div class="ico">🔭</div> <span class="tag ms-2">2011</span><h3 class="h4 mt-3">Spektr-R</h3><button class="btn btn-line mt-2">Details</button></div></div></div></div></section>
+<div class="modal fade" id="mModal" tabindex="-1"><div class="modal-dialog modal-dialog-centered"><div class="modal-content">
+<div class="modal-header"><h3 class="modal-title h4" id="mTitle"></h3><button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+<div class="modal-body" id="mBody"></div></div></div></div></main>
+<button id="toTop" class="btn btn-red" aria-label="Back to top">&uarr;</button>
+<footer><div class="container"><div class="row gy-3">
+<div class="col-md-6">&copy; 2026 Baikonur: The Road to the Stars. Nygmet Aiym.</div>
+<div class="col-md-3"><a href="missions.html">Missions</a><br><a href="gallery.html">Gallery</a><br><a href="history.html">History</a></div>
+<div class="col-md-3">info@baikonur.example<br></div></div></div></footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script></body></html>
